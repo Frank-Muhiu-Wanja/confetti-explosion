@@ -14,4 +14,4 @@ Customizable particle size, color, speed, and gravity
 
 Easy to integrate into any website
 
-Triggered on events like clicks, page loads, or form submissions
+
