@@ -1,0 +1,45 @@
+body {
+  border: solid red 2px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.main {
+  border: solid green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main span {
+  display: block;
+  font-size: 36px;
+  font-weight: 600;
+  color: #ff4d4f;
+  letter-spacing: 0.03em;
+}
+.main span strong {
+  font-weight: 600;
+  color: white;
+}
+
+.main .small {
+  display: block;
+  color: #cda6a6;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.confetti {
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  z-index: 2;
+}
